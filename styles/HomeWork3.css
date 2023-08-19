@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Prompt";
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.name {
+    text-align: center;
+    font-size: 75px;
+    color: aliceblue;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px rgba(21, 21, 23, 0.514);
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.content .border {
+    border: 3px solid white;
+    padding: 50px;
+    border-radius: 50px;
+    backdrop-filter: blur(3px);
+    box-shadow: 12px 12px 2px rgba(21, 21, 23, 0.514);
+}
+
+.content .border .topic {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content .border label {
+    color: white;
+}
+
+.content .border input, select, textarea {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.content .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .btn button {
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: none;
+    margin-bottom: 25px;
+}
+
+.content .btn button:hover {
+    background-color: white;
+    color: black;
+}
